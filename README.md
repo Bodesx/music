@@ -1,2 +1,2 @@
-# M-music
- A php music app with authentication 
+# Muzira-music app 
+ A simple php music app with authentication 
