@@ -1,0 +1,77 @@
+ * {
+     box-sizing: border-box;
+     text-decoration: none;
+     text-transform: capitalize;
+     color: white;
+     font-family: rubik;
+     font-weight: 400;
+     font-size: 18px;
+     width: auto;
+     height: auto;
+ }
+
+ body {
+     background: url(images/landingpage.png);
+     background-size: cover;
+     width: 100%; 
+     height: 100vh;
+ }
+
+ /* Create two equal columns that floats next to each other */
+ .column1 {
+     margin-top: 10px;
+     float: left;
+     width: 40%;
+     padding: 10px;
+     height: auto;
+     /* Should be removed. Only for demonstration */
+ }
+
+ .column2 {
+    margin-top: 10px;
+     float: left;
+     width: 20%;
+     padding: 0px 0px;
+     height: auto;
+     /* Should be removed. Only for demonstration */
+ }
+
+ .menu {
+     margin-top: 15px;
+ }
+
+ .menu-register-link {
+     margin-top: 15px;
+     border-radius: 8px;
+ }
+
+ .column3 {
+    margin-top: 10px;
+     float: left;
+     width: 20%;
+     padding: 0px;
+ }
+
+ .column-split {
+     float: left;
+     width: 50%;
+     box-sizing: border-box;
+ }
+
+ .btn {
+     background-color: #660099;
+     padding: 10px 20px;
+     border-radius: 8px;
+     text-transform: none;
+ }
+
+ .btn-button {
+     margin-left: 50px;
+ }
+
+ /* Clear floats after the columns */
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
